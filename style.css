@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+}
+
+.pinterest {
+  display: flex;
+}
+
+.pinterest_sidebar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 72px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-right: 1px solid rgb(204, 197, 197);
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+
+.pinterest_sidebar_helper_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pinterest_topbar_content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 72px);
+}
+
+.pinterest_topbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0px 24px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+}
+
+.search-bar {
+  width: calc(100% - 72px);
+  height: 48px;
+  background-color: rgb(241, 240, 240);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 8px;
+  gap: 6px;
+}
+
+.profile-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+.arrow-button {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+.pinterest_topbar input {
+  background-color: rgb(241, 240, 240);
+  border: none;
+  width: calc(100% - 72px);
+  height: 48px;
+}
+
+.pinterest_topbar input::placeholder {
+font-family:'Inter', sans-serif;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+}
+
+.pinterest_content_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pinterest_content {
+  columns: 240px;
+  width: 100%;
+  height: auto;
+  padding: 0px 16px;
+}
+
+.pinterest_content_post {
+  width: 240px;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+}
